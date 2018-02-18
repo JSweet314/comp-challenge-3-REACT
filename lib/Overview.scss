@@ -1,0 +1,128 @@
+.overview {
+  background-color: #fff;
+  border-bottom: 0.2rem solid lightgrey;
+}
+
+.overview__display-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 5rem auto 4rem auto;
+  width: 95%;
+}
+
+.overview__h1 {
+  color: #6F6F71;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.overview__p {
+  font-size: 1rem;
+  margin: 0.2rem 0 0 0;
+}
+
+.overview__icon {
+  vertical-align: top;
+  width: 1rem;
+}
+
+.overview__btn {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  border-radius: 100%;
+  border: 0.2rem solid lightgrey;
+  color: #8891a1;
+  float: right;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5rem;
+  margin: 1rem;
+  width: 2.5rem;
+}
+.overview__btn:hover {
+  background-color: #48A3F3;
+  color: white;
+}
+
+.overview__btn--bookmark {
+  background-image: url("../images/bookmark-icon.svg");
+}
+
+.overview__btn--bookmark:hover {
+  background-image: url("../images/bookmark-icon-white.svg");
+}
+
+.overview__btn--delete {
+  background-image: url("../images/delete-icon.svg");
+  margin-right: 0;
+}
+
+.overview__btn--delete:hover {
+  background-image: url("../images/delete-icon-white.svg");
+}
+
+.overview__btn--edit {
+  background-image: url("../images/edit-icon.svg");
+}
+
+.overview__btn--edit:hover {
+  background-image: url("../images/edit-icon-white.svg");
+}
+
+.overview__btn--open {
+  background-image: url(../images/dot-icon-green.svg);
+  background-position: 1rem;
+  border-radius: 2rem;
+  display: grid;
+  height: 2.5rem;
+  padding: 0 1rem 0 2.5rem;
+  width: auto;
+}
+
+.overview__link-list {
+  margin: auto;
+  padding: 0;
+  width: 95%;
+}
+
+.overview__list-item {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 3rem 0 0;
+  padding: 0 0rem 1rem 0;
+}
+
+.overview__list-item--selected {
+  border-bottom: 0.4rem solid #48A3F3;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  top: 0.2rem;
+}
+
+.overview__link {
+  color: #A0A3A8;
+  text-decoration: none;
+}
+
+.overview__link:hover {
+  color: #48A3F3;
+}
+
+.overview__link--active-bold {
+  bottom: .2rem;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+
+.overview__link--blue {
+  color: #48A3F3;
+}
+
+.overview__link--blue:hover {
+  color: #99c659;
+}

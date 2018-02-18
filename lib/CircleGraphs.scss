@@ -1,0 +1,47 @@
+/*
+  CIRCLE GRAPHS LAYOUT
+
+  circle-graph
+    circle-graph__ring
+    circle-graph__segment
+    circle-graph__text-group
+      circle-graph__text --label
+      circle-graph__text --number
+end
+*/
+
+.circle-graph {
+  height: 50%;
+  margin: 0 1rem;
+  width: 50%;
+}
+
+.circle-graph--left {
+  margin: 0 1rem 0 0;
+}
+
+.circle-graph--right {
+  margin: 0 0 0 1rem;
+}
+
+.circle-graph__segment {
+  stroke-linecap: round;
+}
+
+.circle-graph__text-group {
+  transform: translateY(0.4em);
+}
+
+.circle-graph__text {
+  text-anchor: middle;
+}
+
+.circle-graph__text--label {
+  font-size: 3px;
+  transform: translateY(4px);
+}
+
+.circle-graph__text--number {
+  font-size: 9px;
+  transform: translateY(-1px);
+}

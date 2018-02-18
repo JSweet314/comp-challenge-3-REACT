@@ -1,0 +1,74 @@
+.info-table {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr auto 1fr 1fr;
+  width: 65%;
+}
+
+.info-table__btn {
+  background-color: #8891a1;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.info-table__btn:hover {
+  background-color: #48A3F3;
+}
+
+.info-table__photo,
+.info-table__description,
+.info-table__title {
+  align-items: center;
+  border-top: 0.1rem solid lightgrey;
+  display: flex;
+  font-size: 1rem;
+  padding: 0 2rem 0 0;
+}
+
+.info-table__title {
+  margin: 0 0 0 2rem;
+}
+.info-table__photo,
+.info-table__description {
+  margin: 0 2rem 0 0;
+  padding: 0 2rem 0 0;
+}
+
+.info-table__icon {
+  margin: 0 0.5rem 0 0;
+  vertical-align: top;
+  width: 1rem;
+}
+
+.info-table__img {
+  border-radius: 100%;
+  margin: 0.5rem 1rem 0.5rem 0;
+  vertical-align: middle;
+  width: 3rem;
+}
+
+.info-table--heading {
+  background-color: #7F8BA4;
+  color: #fff;
+  margin: 0;
+}
+
+.info-table__heading--pad-left {
+  padding: 0 0 0 2rem;
+}
+
+.info-table--top-entry {
+  border: none;
+}
+
+.info-table--align-self-start {
+  align-self: flex-start;
+  padding: 1.5rem 1.5rem 0 0;
+}
+
+.info-table__description--pad-top-bottom {
+  padding: 1.5rem 2rem 1.5rem 0;
+}

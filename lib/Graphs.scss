@@ -1,0 +1,29 @@
+.graphs {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.graphs--margin-right {
+  margin: 0 5rem 0 0;
+}
+
+.graphs__h2 {
+  background: #fff;
+  border-radius: 2rem 2rem;
+  border: 0.2rem solid lightgrey;
+  font-size: 1rem;
+  margin: 1rem 0 2rem 0;
+  padding: 1rem 1.5rem;
+}
+
+.graphs__display-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.graphs__img {
+  width: 100%;
+}
