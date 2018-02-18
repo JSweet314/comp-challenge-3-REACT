@@ -1,4 +1,4 @@
-const GraphData = [{
+const CircleGraphData = [{
   label: "APPLICANTS",
   number: "3,154",
   strokeDasharray: "79 21",
@@ -26,4 +26,9 @@ const GraphData = [{
   className: "circle-graph circle-graph--right"
 }];
 
-module.exports = GraphData;
+const BarGraphData = {
+  img: "images/bar-chart-crop.png",
+  caption: "APPLICANTS/DAY"
+}
+
+module.exports = {CircleGraphData, BarGraphData};
