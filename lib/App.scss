@@ -78,7 +78,7 @@ main {
   }
 
   .side-bar__form,
-  .side-bar__link-list {
+  .side-bar__list-links {
     display: none;
   }
 
@@ -114,7 +114,7 @@ main {
     margin: 2rem auto 0 auto;
   }
 
-  .overview__link-list {
+  .overview__list-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -208,7 +208,7 @@ main {
   .sub-content,
   .divider,
   .overview__display-wrapper,
-  .overview__link-list {
+  .overview__list-links {
     width: 80%;
   }
 }
