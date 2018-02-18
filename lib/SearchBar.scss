@@ -1,0 +1,66 @@
+.search-bar {
+  border-bottom: 0.1rem solid lightgrey;
+  display: flex;
+}
+
+.search-bar__btn {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  border: none;
+  border-right: 0.1rem solid lightgrey;
+  flex: auto;
+  min-height: 6rem;
+  min-width: 6rem;
+}
+
+.search-bar__btn:hover {
+  background-color: #48A3F3;
+}
+
+.search-bar__btn--add-contact {
+  background-image: url("../images/add-contact-icon.svg");
+}
+
+.search-bar__btn--add-contact:hover {
+  background-image: url("../images/add-contact-icon-white.svg");
+}
+
+.search-bar__btn--dots-menu {
+  background-image: url("../images/dots-menu.svg");
+}
+
+.search-bar__btn--dots-menu:hover {
+  background-image: url("../images/dots-menu-white.svg");
+}
+
+.search-bar__btn--schedule {
+  background-image: url("../images/schedule-icon.svg");
+}
+
+.search-bar__btn--schedule:hover {
+  background-image: url("../images/schedule-icon-white.svg");
+}
+
+.search-bar__btn--side-menu {
+  background-image: url("../images/toggle-menu-icon-clicked.svg");
+}
+
+.search-bar__btn--side-menu:hover {
+  background-image: url("../images/toggle-menu-icon-white.svg");
+}
+
+.search-bar__search {
+  // background: url("../images/search-icon.svg") 1rem no-repeat;
+  background-size: 1.5rem 1.5rem;
+  border: none;
+  border-right: 0.1rem solid lightgrey;
+  font-size: 1.5rem;
+  height: 6rem;
+  padding: 0 0 0 3.5rem;
+  width: 80%;
+}
+
+.search-bar__search::placeholder {
+  color: lightgrey;
+}
