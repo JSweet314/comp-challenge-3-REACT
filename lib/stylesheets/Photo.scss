@@ -1,0 +1,28 @@
+.photo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.photo__img {
+  border-radius: 100%;
+  margin: 0 0 1rem 0;
+  vertical-align: middle;
+  width: 6rem;
+}
+
+.photo__caption {
+  background-image: url("../images/down-arrow-icon.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  padding: 0 1rem 0 0;
+  cursor: pointer;
+}
+
+.photo__caption:hover {
+  background-image: url("../images/down-arrow-icon-white.svg");
+  color: #fff;
+}

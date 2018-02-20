@@ -1,0 +1,35 @@
+.divider {
+  align-items: center;
+  align-self: center;
+  display: inline-flex;
+  justify-content: center;
+  padding: 1rem 0 3rem 0;
+  width: 95%;
+}
+
+.divider__line {
+  border: none;
+  border-top: 0.2rem solid lightgrey;
+  margin: 0 0.5rem 0 0;
+  width: 100%;
+}
+
+.divider__line--right {
+  margin: 0 0 0 0.5rem ;
+}
+
+.divider__button {
+  background-color: #fff;
+  background-image: url("../images/up-arrow-icon.svg");
+  background-position: 50% 49%;
+  background-repeat: no-repeat;
+  background-size: .9rem;
+  border-radius: 100%;
+  border: 0.2rem solid lightgrey;
+  padding: 1rem;
+}
+
+.divider__button:hover {
+  background-color: #48A3F3;
+  background-image: url("../images/up-arrow-icon-white.svg");
+}
